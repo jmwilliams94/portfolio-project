@@ -29,6 +29,7 @@ npm run start
 - Javascript
 - TailwindCSS
 - React Icons
+- [getform.io](https://getform.io/)
 
 ## Author
 
