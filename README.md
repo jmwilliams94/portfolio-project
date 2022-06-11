@@ -1,8 +1,10 @@
 # Welcome to Portfolio-Project 👋
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 > Personal portfolio creation while implementing TailwindCSS.
+
+> This portfolio has been apart of my final project during my Academy Xi bootcamp.
 
 ### 🏠 [Homepage](http://jmwilliams94.github.io/portfolio-project)
 
@@ -30,5 +32,3 @@ npm run start
 Give a ⭐️ if this project helped you!
 
 ---
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
