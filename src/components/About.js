@@ -19,9 +19,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about learning Front Development to create
-              solutions and work on existing applications for individuals or
-              clients.{" "}
+              I am passionate about learning Front End Development to create
+              solutions and work on existing applications/websites for
+              individuals and clients.{" "}
             </p>
           </div>
         </div>
