@@ -38,7 +38,7 @@ const Socials = () => {
         <li className="w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <a
             className="flex justify-between items-center w-full text-gray-300"
-            href="https://www.youtube.com/watch?v=BBJa32lCaaY"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
