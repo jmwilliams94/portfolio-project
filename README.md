@@ -6,12 +6,15 @@
 
 > This portfolio has been apart of my final project during my Academy Xi bootcamp.
 
-### 🏠 [Homepage](http://jmwilliams94.github.io/portfolio-project)
+> Over the coming weeks I look to fill in some Projects and add animations to this portfolio.
+
+### 🏠 [Portfolio Homepage](http://jmwilliams94.github.io/portfolio-project)
 
 ## Install
 
 ```sh
 npm install
+
 ```
 
 ## Usage
@@ -19,6 +22,13 @@ npm install
 ```sh
 npm run start
 ```
+
+## Built with:
+
+- React
+- Javascript
+- TailwindCSS
+- React Icons
 
 ## Author
 
