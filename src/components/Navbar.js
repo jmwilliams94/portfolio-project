@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import Socials from "../components/Socials";
 
 // import Logo from "../src/images/Logo.png";
@@ -18,19 +19,19 @@ const Navbar = () => {
         <div className="hidden md:flex">
           <ul className="md:flex">
             <li className="hover:text-sky-300">
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className="hover:text-sky-300">
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li className="hover:text-sky-300">
-              <a href="/skills">Skills</a>
+              <Link to="/skills">Skills</Link>
             </li>
             <li className="hover:text-sky-300">
-              <a href="/projects">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li className="hover:text-sky-300">
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -48,19 +49,29 @@ const Navbar = () => {
           }
         >
           <li className="py-6 text-4xl hover:text-sky-300">
-            <a href="/">Home</a>
+            <Link onClick={handleClick} to="/">
+              Home
+            </Link>
           </li>
           <li className="py-6 text-4xl hover:text-sky-300">
-            <a href="/about">About</a>
+            <Link onClick={handleClick} to="/about">
+              About
+            </Link>
           </li>
           <li className="py-6 text-4xl hover:text-sky-300">
-            <a href="/skills">Skills</a>
+            <Link onClick={handleClick} to="/skills">
+              Skills
+            </Link>
           </li>
           <li className="py-6 text-4xl hover:text-sky-300">
-            <a href="/projects">Projects</a>
+            <Link onClick={handleClick} to="/projects">
+              Projects
+            </Link>
           </li>
           <li className="py-6 text-4xl hover:text-sky-300">
-            <a href="/contact">Contact</a>
+            <Link onClick={handleClick} to="/contact">
+              Contact
+            </Link>
           </li>
         </ul>
         <Socials />

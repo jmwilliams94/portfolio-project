@@ -14,7 +14,7 @@ const Home = () => {
               Jordan Williams
             </h1>
             <h2 className="text-4xl sm:text-5xl md:text-7xl font-bolt text-sky-300 mx-auto">
-              Aspiring Front End Developer
+              Front End Developer
             </h2>
           </div>
           <div>
@@ -27,9 +27,9 @@ const Home = () => {
         </div>
 
         <p className="text-sky-300 py-4 max-w-[700px]">
-          My goal is to become a junior developer and improve on building with
-          React, JS, TypeScript and Angular. I am currently completing a boot
-          camp through Academy Xi.
+          I am a Front End Developer seeking a front-end role using Javascript
+          technologies. I have recently completed a boot camp through Academy
+          Xi.
         </p>
         <div>
           {/* <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-sky-400 hover:border-sky-400 ">
