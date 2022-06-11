@@ -3,8 +3,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Socials from "../components/Socials";
 
-// import Logo from "../src/images/Logo.png";
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);

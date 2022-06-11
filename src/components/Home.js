@@ -1,6 +1,5 @@
 import React from "react";
 import Portrait from "../images/Portrait.jpg";
-// import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
   return (
@@ -31,14 +30,6 @@ const Home = () => {
           technologies. I have recently completed a boot camp through Academy
           Xi.
         </p>
-        <div>
-          {/* <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-sky-400 hover:border-sky-400 ">
-            View Work
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button> */}
-        </div>
       </div>
     </div>
   );
